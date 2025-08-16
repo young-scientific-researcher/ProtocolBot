@@ -1,0 +1,2271 @@
+[
+  {
+    "title": "ICC – cell culture–cell line staining (35mm dish)",
+    "author": "Nosov G.",
+    "keywords": "immunocytochemistry, ICC, staining, cells, cellculture",
+    "materials": [
+      {
+        "step_number": "1",
+        "text": "bungarotoxin – stock solution: 1µg/1µl (488 Alexa – green or TRITC – red), dilute 1:1000 in appropriate media used for the cell culture (final concentration 5µg/1ml)",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "vehicle: PBS",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "fixation solution: 2% paraformaldehyde in PBS (see also protocol # 125), use always fresh",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "permeabilizations solution: 0.5% Triton X-100 in PBS, store at RT",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "neutralization solution: 100 mM glycin in PBS, store at 4°C",
+        "parent_step": null
+      },
+      {
+        "step_number": "6",
+        "text": "blocking solution: 1% BSA in PBS (optional - add 10% normal goat serum), store at 4°C",
+        "parent_step": null
+      },
+      {
+        "step_number": "7",
+        "text": "primary antibody in blocking buffer",
+        "parent_step": null
+      },
+      {
+        "step_number": "8",
+        "text": "secondary antibody in blocking buffer",
+        "parent_step": null
+      },
+      {
+        "step_number": "9",
+        "text": "dehydration solution: 70 % EtOH / 100 % EtOH",
+        "parent_step": null
+      },
+      {
+        "step_number": "10",
+        "text": "anti-bleaching reagent – citifluor or mowiol, store at 4°C",
+        "parent_step": null
+      }
+    ],
+    "procedure": [
+      {
+        "step_number": "1",
+        "text": "remove medium and wash cells twice with 1ml of sterile PBS (37°C)          2 x  5’",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "if you want to stain C2C12 cells for AChRs – add bungarotoxin                                      and incubate in the incubator (37°C)                                                                   30’                                       otherwise proceed to step 4",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "wash cells twice with 1ml of sterile PBS (37°C)                                           2 x  5’",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "remove, fix cells with 1 ml of 37°C fixative solution at RT                               10’",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "remove, wash fixed cells twice with 1 ml of PBS at RT                                2 x  5’",
+        "parent_step": null
+      },
+      {
+        "step_number": "6",
+        "text": "if you want to do intracellular staining then remove solution and incubate                with 1 ml of permeabilization solution at RT                                                        7’ otherwise proceed to step 7",
+        "parent_step": null
+      },
+      {
+        "step_number": "7",
+        "text": "remove, add 1 ml of neutralization solution at RT                                             15’",
+        "parent_step": null
+      },
+      {
+        "step_number": "8",
+        "text": "remove, add with 1 ml of blocking solution at RT                                          30’",
+        "parent_step": null
+      },
+      {
+        "step_number": "9",
+        "text": "remove blocking solution and add primary antibody in blocking solution                 (just to cover the cells) ~ 0.75 ml and incubate at 4°C over night                     oN",
+        "parent_step": null
+      },
+      {
+        "step_number": "10",
+        "text": "remove, wash 3 times with 1ml of blocking solution                                    3 x 10’",
+        "parent_step": null
+      },
+      {
+        "step_number": "11",
+        "text": "remove, add 1ml of secondary antibody in blocking solution                                            and incubate in dark at RT                                                                                   45’",
+        "parent_step": null
+      },
+      {
+        "step_number": "12",
+        "text": "remove, wash 3 times with 1 ml of blocking solution                                    3 x 10’",
+        "parent_step": null
+      },
+      {
+        "step_number": "13",
+        "text": "remove, dehydrate with 1 ml of 70% EtOH                                                           2’",
+        "parent_step": null
+      },
+      {
+        "step_number": "14",
+        "text": "remove, dehydrate with 1 ml of 100% EtOH                                                         2’",
+        "parent_step": null
+      },
+      {
+        "step_number": "15",
+        "text": "remove, add one drop of anti-bleaching solution on the cells",
+        "parent_step": null
+      },
+      {
+        "step_number": "16",
+        "text": "cover cells with a cover slip",
+        "parent_step": null
+      },
+      {
+        "step_number": "17",
+        "text": "observe under the microscope",
+        "parent_step": null
+      },
+      {
+        "step_number": "18",
+        "text": "store in dark at 4°C",
+        "parent_step": null
+      }
+    ],
+    "comment": "optional - duration of neutralization and permeabilization solutions can be prolonged by adding 10mNaN3",
+    "filename": "ICC-cell culture-cell line staining Protocol for 35mm dish.docx"
+  },
+  {
+    "title": "Adenovirus production Protocol",
+    "author": "Nosov G.",
+    "keywords": "adenovirus",
+    "materials": [
+      {
+        "step_number": "1",
+        "text": "pAd/PL-DEST™",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "entry clone",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "0.5 ml microcentrifuge tubes",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "Destination vector",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "TE Buffer, pH 8.0 to 8",
+        "parent_step": null
+      },
+      {
+        "step_number": "6",
+        "text": "LR Clonase™ II enzyme mix",
+        "parent_step": null
+      },
+      {
+        "step_number": "7",
+        "text": "ice",
+        "parent_step": null
+      },
+      {
+        "step_number": "8",
+        "text": "Proteinase K",
+        "parent_step": null
+      },
+      {
+        "step_number": "9",
+        "text": "phenol/chloroform",
+        "parent_step": null
+      },
+      {
+        "step_number": "10",
+        "text": "sterile water or TE Buffer, pH 8.0",
+        "parent_step": null
+      }
+    ],
+    "procedure": [
+      {
+        "step_number": "1",
+        "text": "Cloning of the sequence into Gateway vector",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "Create an Entry clone with attL and attR sequence and  perform a Recombination reaction with pAd vector from Invitrogen",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "Add the following components to 0.5 ml microcentrifuge tubes at room",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "temperature and mix. Entry clone (50-150 ng/reaction) +Destination vector (300 ng/reaction) +TE Buffer, pH 8.0 to 8",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "Remove the LR Clonase™ II enzyme mix from -20°C and thaw on ice (~ 2 minutes)",
+        "parent_step": null
+      },
+      {
+        "step_number": "6",
+        "text": "Vortex the LR Clonase™ II enzyme mix briefly twice (2 seconds each time)",
+        "parent_step": null
+      },
+      {
+        "step_number": "7",
+        "text": "To each sample above, add 2 μl of LR Clonase™ II enzyme mix. Mix well by pipetting up and down",
+        "parent_step": null
+      },
+      {
+        "step_number": "8",
+        "text": "Incubate reactions at 25°C for 1 hour.",
+        "parent_step": null
+      },
+      {
+        "step_number": "9",
+        "text": "Add 1 μl of the Proteinase K solution to each reaction. Incubate for 10 minutes at 37°C",
+        "parent_step": null
+      },
+      {
+        "step_number": "10",
+        "text": "Transform 2-3 μl of the LR recombination reaction into a suitable E. coli host (follow the manufacturer’s instructions) and select for expression clones",
+        "parent_step": null
+      }
+    ],
+    "comment": null,
+    "filename": "Adenovirus production Protocol NOT FULL.docx"
+  },
+  {
+    "title": "C2C12 culture preparation protocol",
+    "author": "Nosov G.",
+    "keywords": "C2C12; myoblasts; cellculture, cells",
+    "materials": [
+      {
+        "step_number": "1",
+        "text": "Growth medium",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "DMEM high glucose with Pyruvate with Phenol red",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "20 % Fetal Calf Serum",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "1% L-Glutamin",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "1% Sodium Pyruvate",
+        "parent_step": null
+      },
+      {
+        "step_number": "6",
+        "text": "1% Penicillin -Streptomycin",
+        "parent_step": null
+      },
+      {
+        "step_number": "7",
+        "text": "Fusion medium",
+        "parent_step": null
+      },
+      {
+        "step_number": "8",
+        "text": "DMEM high glucose with Pyruvate with Phenol red",
+        "parent_step": null
+      },
+      {
+        "step_number": "9",
+        "text": "5 % Horse serum",
+        "parent_step": null
+      },
+      {
+        "step_number": "10",
+        "text": "1% L-Glutamin",
+        "parent_step": null
+      },
+      {
+        "step_number": "11",
+        "text": "1% Sodium Pyruvate",
+        "parent_step": null
+      },
+      {
+        "step_number": "12",
+        "text": "1% Penicillin -Streptomycin",
+        "parent_step": null
+      }
+    ],
+    "procedure": [
+      {
+        "step_number": "1",
+        "text": "Splitting",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "Comm: C2C12 cells need to be kept at low density. Therefore split every 2-3 days (use 15 cm TC plates). A convenient way is to split them on monday, wednesday and friday.",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "Day: monday, wednesday; Type of plate: 15 cm TC plate; Amount of cells: 180 000",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "Day: friday; Type of plate: 15 cm TC plate; Amount of cells: 90 000",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "Day: monday, wednesday; Type of plate: 10 cm TC plate; Amount of cells: 90 000",
+        "parent_step": null
+      },
+      {
+        "step_number": "6",
+        "text": "Day: friday; Type of plate: 10 cm TC plate; Amount of cells: 45 000",
+        "parent_step": null
+      },
+      {
+        "step_number": "7",
+        "text": "Day: monday, wednesday; Type of plate: 3.5 cm TC plate; Amount of cells: 40 000",
+        "parent_step": null
+      },
+      {
+        "step_number": "8",
+        "text": "Day: friday; Type of plate: 3.5 cm TC plate; Amount of cells: 20 000",
+        "parent_step": null
+      },
+      {
+        "step_number": "9",
+        "text": "Day: monday, wednesday; Type of plate: 96 well plate; Amount of cells: 2 000 / well",
+        "parent_step": null
+      },
+      {
+        "step_number": "10",
+        "text": "Day: friday; Type of plate: 96 well plate; Amount of cells: 1 000 / well",
+        "parent_step": null
+      },
+      {
+        "step_number": "11",
+        "text": "Fusion",
+        "parent_step": null
+      },
+      {
+        "step_number": "12",
+        "text": "Comm: If the fusion of the cells is required, TC-plates should be coated with 0.03% gelatine (dilute 2 % stock 1.5/100 in H2O) for at least 30min at 37°C before plating",
+        "parent_step": null
+      },
+      {
+        "step_number": "13",
+        "text": "To induce fusion of C2C12, replace the growth medium by fusion medium when cells reach 80% confluency, usually 2 days after plating (if plated according to table )",
+        "parent_step": null
+      },
+      {
+        "step_number": "14",
+        "text": "Cells plated on monday : change to FM on wednesday - change FM on friday - ready on monday",
+        "parent_step": null
+      },
+      {
+        "step_number": "15",
+        "text": "Cells plated on wednesday : change to FM on friday - change FM on monday - ready on wednesday",
+        "parent_step": null
+      },
+      {
+        "step_number": "16",
+        "text": "Cells plated on friday : change to FM of monday - change FM on wednesday - ready on friday",
+        "parent_step": null
+      }
+    ],
+    "comment": null,
+    "filename": "C2C12 Culture Preparation Protocol.docx"
+  },
+  {
+    "title": "Quantification of AChR Aggregation in cultured cells",
+    "author": "Nosov G.",
+    "keywords": "AChR, aggregation, cells, cellculture, quantification",
+    "materials": [
+      {
+        "step_number": "1",
+        "text": "Incubation medium: MEM, 10% horse serum, 100U/ml penicillin, 100μg/ml streptomycin, glutamine",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "Staining solution: incubation medium with 1:1000 (=1 μg/ml) rhodamine-α-bungarotoxin",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "MEM",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "Ice cold 95% ethanol",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "Glycerol solution: 90% glycerol, 10% PBS",
+        "parent_step": null
+      }
+    ],
+    "procedure": [
+      {
+        "step_number": "1",
+        "text": "Incubate muscle cells with agrin in incubation medium for 16h at 37°C on tissue culture dishes. (1 ml on 35mm plates)",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "Aspirate and wash with prewarmed MEM",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "Add 500μl staining solution and incubate for 45-60min at 37°C",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "Wash 3 times with 1-2 ml MEM and aspirate",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "Fix with 95% ice cold ethanol for 5min at -20°C",
+        "parent_step": null
+      },
+      {
+        "step_number": "6",
+        "text": "Aspirate ethanol and wait until the dish is dry",
+        "parent_step": null
+      },
+      {
+        "step_number": "7",
+        "text": "Mount on glass coverslip with glycerol solution (or Citifluor)",
+        "parent_step": null
+      },
+      {
+        "step_number": "8",
+        "text": "Store dishes for further AChR clustering determination at 4°C",
+        "parent_step": null
+      }
+    ],
+    "comment": "sterile solutions and work sterile",
+    "filename": "Quantification of AChR Aggregation in cultured cells Protocol.docx"
+  },
+  {
+    "title": "Preparation of Ringer’s solution for rat",
+    "author": "Nosov G.",
+    "keywords": "Ringer, solution",
+    "materials": [
+      {
+        "step_number": "1",
+        "text": "NaCl (135 mM)",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "KCl (5.4 mM)",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "MgCl2  (1 mM)",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "CaCl2  (1.8 mM)",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "HEPES (5 mM)",
+        "parent_step": null
+      },
+      {
+        "step_number": "6",
+        "text": "pH (7.2 (NaOH))",
+        "parent_step": null
+      }
+    ],
+    "procedure": [
+      {
+        "step_number": "1",
+        "text": "For 1L",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "NaCl (7.88 g)",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "KCl (0.40 g)",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "MgCl2  (0.20 g)",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "CaCl2  (0.26 g)",
+        "parent_step": null
+      },
+      {
+        "step_number": "6",
+        "text": "HEPES (1.19 g)",
+        "parent_step": null
+      },
+      {
+        "step_number": "7",
+        "text": "pH (7.2 (NaOH))",
+        "parent_step": null
+      }
+    ],
+    "comment": null,
+    "filename": "Preparation of Ringer’s solution for rat Protocol.docx"
+  },
+  {
+    "title": "Transfection of high density primary hippocampal neuronal culture Protocol",
+    "author": "Nosov G.",
+    "keywords": "hippocampal, neurons, cells, cellculture, transfection",
+    "materials": [
+      {
+        "step_number": "1",
+        "text": "Neurobasal medium without Glutamat",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "500 ml Neurobasalmedium",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "5 ml P/S",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "10 ml B27",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "1.25 ml L-Glutamine (200 mM; end)",
+        "parent_step": null
+      },
+      {
+        "step_number": "6",
+        "text": "OptiMEM",
+        "parent_step": null
+      },
+      {
+        "step_number": "7",
+        "text": "LF2000",
+        "parent_step": null
+      }
+    ],
+    "procedure": [
+      {
+        "step_number": "1",
+        "text": "Day before transfection",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "Replace 50% of the medium by Neurobasalmedium without Glutamat but with P/S",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "Day of transfection",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "Combine 100 μl OptiMEM I with 4 μl of 1mg/ml Lipofectamine2000",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "Let at RT for 5 min",
+        "parent_step": null
+      },
+      {
+        "step_number": "6",
+        "text": "Combine 100 μl OptiMEM I with 4 μg of plasmid (ideal concentration 1mg/ml)",
+        "parent_step": null
+      },
+      {
+        "step_number": "7",
+        "text": "Let at RT for 5 min",
+        "parent_step": null
+      },
+      {
+        "step_number": "8",
+        "text": "Pour together the two solutions and mix well",
+        "parent_step": null
+      },
+      {
+        "step_number": "9",
+        "text": "Let at RT for 20 min",
+        "parent_step": null
+      },
+      {
+        "step_number": "10",
+        "text": "During the 20 min: replace the medium in the wells by 800 μl fresh Neurobasalmedium without Glutamat and without P/S",
+        "parent_step": null
+      },
+      {
+        "step_number": "11",
+        "text": "Add 200 μl LF200/DNA-mixture to the culture",
+        "parent_step": null
+      },
+      {
+        "step_number": "12",
+        "text": "After another 4 hours replace Medium. Use: Neurobasalmedium without Glutamat but with PS",
+        "parent_step": null
+      }
+    ],
+    "comment": null,
+    "filename": " transfection of high density primary hippocampal neurons Protocol.docx"
+  },
+  {
+    "title": "Transfection with FuGENE 6 Protocol",
+    "author": "Nosov G.",
+    "keywords": "transfection, FuGENE6, cells,",
+    "materials": [
+      {
+        "step_number": "1",
+        "text": "medium: COS/ HEK: DMEM + 10%FCS + 1% of Pyr, Gln, P/S",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "PC12: DMEM + 5%FCS + 10%HoS and + 1% of Pyr, Gln, P/S",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "DMEM serumfree",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "FuGENE 6",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "DNA stock solution",
+        "parent_step": null
+      },
+      {
+        "step_number": "6",
+        "text": "Cells (50% subconfluent) in 2ml medium",
+        "parent_step": null
+      },
+      {
+        "step_number": "7",
+        "text": "Comm: Sterile solutions",
+        "parent_step": null
+      }
+    ],
+    "procedure": [
+      {
+        "step_number": "1",
+        "text": "Comm: Cells have to be 50% confluent",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "aspirate medium and add 2 ml of fresh medium without antibiotics",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "prepare Fugene6 reagent-DNAcomplex",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "dilute 3-6 μl Fugene in 100 μl of serum free medium (do not allow Fugene to come\tin contact with the tube)",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "incubate for 5min at RT",
+        "parent_step": null
+      },
+      {
+        "step_number": "6",
+        "text": "add 1-2 μg of DNA to a second sterile tube",
+        "parent_step": null
+      },
+      {
+        "step_number": "7",
+        "text": "drop wise add diluted Fugene to the tube containing the concentrated DNA",
+        "parent_step": null
+      },
+      {
+        "step_number": "8",
+        "text": "gently tap the tube to mix the contents",
+        "parent_step": null
+      },
+      {
+        "step_number": "9",
+        "text": "incubate for 30 min at RT",
+        "parent_step": null
+      },
+      {
+        "step_number": "10",
+        "text": "add transfection-mixture drop wise in the well",
+        "parent_step": null
+      },
+      {
+        "step_number": "11",
+        "text": "incubate for 24h",
+        "parent_step": null
+      }
+    ],
+    "comment": null,
+    "filename": "Transfection with Fugene 6 Protocol.docx"
+  },
+  {
+    "title": "Electroporation of C2C12 Myoblasts",
+    "author": "Nosov G.",
+    "keywords": "C2C12, myoblasts, electroporation, cells",
+    "materials": [
+      {
+        "step_number": "1",
+        "text": "Tripsin",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "OPTIMEM",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "0.4 cm electroportation cuvette",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "DNA",
+        "parent_step": null
+      }
+    ],
+    "procedure": [
+      {
+        "step_number": "1",
+        "text": "trypsinize myoblasts",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "for 1 electroporation resuspend 0.5-5.106 cells in 300 μl OPTIMEM",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "transfer 300 μl myoblasts in a 4 mm electroportation cuvette",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "add 5-20 μl DNA and mix",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "let stand at RT for 5 min",
+        "parent_step": null
+      },
+      {
+        "step_number": "6",
+        "text": "pulse at 350 V, 960 μF, 200 Ω (Comment τ should be 35-40)",
+        "parent_step": null
+      },
+      {
+        "step_number": "7",
+        "text": "let stand at RT for 5 min",
+        "parent_step": null
+      },
+      {
+        "step_number": "8",
+        "text": "plate",
+        "parent_step": null
+      }
+    ],
+    "comment": null,
+    "filename": "Electroporation of C2C12 Myoblasts Protocol.docx"
+  },
+  {
+    "title": "Freezing Cells",
+    "author": "Nosov G.",
+    "keywords": "freezing, cells",
+    "materials": [
+      {
+        "step_number": "1",
+        "text": "freezing medium: COS/ HEK: DMEM + 10%FCS + 1% Pyr, Gln, P/S PC12: DMEM + 5%FCS + 10%HoS and + 1% of Pyr, Gln, P/S and 10% DMSO",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "add DMSO at the very end of the procedure",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "Trypsin/ EDTA in PBS",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "Cryotubes",
+        "parent_step": null
+      }
+    ],
+    "procedure": [
+      {
+        "step_number": "1",
+        "text": "aspirate medium",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "wash cells 2x with 1X PBS",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "pipette 0.5ml Trypsin/ EDTA in PBS",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "incubate for 3min in incubator",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "dissolve cells in 1.5ml medium, pipet up and down to avoid clumps",
+        "parent_step": null
+      },
+      {
+        "step_number": "6",
+        "text": "centrifuge 5min 800-1000rpm",
+        "parent_step": null
+      },
+      {
+        "step_number": "7",
+        "text": "in the meantime : add 10% DMSO to complete medium (freezing solution)",
+        "parent_step": null
+      },
+      {
+        "step_number": "8",
+        "text": "resuspend cells with 2 ml of freezing solution",
+        "parent_step": null
+      },
+      {
+        "step_number": "9",
+        "text": "divide in 2 cryotubes (1ml each), close not too tightly (optimal number of cells for freezing: 1-2*10^6 per tube",
+        "parent_step": null
+      },
+      {
+        "step_number": "10",
+        "text": "put the cryotubes immediately in a styrofoam-box at –70°C for 24h",
+        "parent_step": null
+      },
+      {
+        "step_number": "11",
+        "text": "transfer the frozen cells into liquid nitrogen.",
+        "parent_step": null
+      }
+    ],
+    "comment": null,
+    "filename": "Freezing Cells Protocol for 35mm cell culture dishes.docx"
+  },
+  {
+    "title": "Splitting Cells Protocol",
+    "author": "Nosov G.",
+    "keywords": "splitting, cells, cellculture",
+    "materials": [
+      {
+        "step_number": "1",
+        "text": "Medium",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "COS/ HEK: DMEM + 10%FCS + 1% of Pyr, Gln, P/S",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "PC12: DMEM + 5%FCS + 10%HoS and + 1% of Pyr, Gln, P/S",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "Trypsin/ EDTA in PBS",
+        "parent_step": null
+      }
+    ],
+    "procedure": [
+      {
+        "step_number": "1",
+        "text": "aspirate medium",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "wash cells 2x with 1X PBS",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "pipette 2ml Trypsin/ EDTA in PBS (for 10cm dishes)",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "incubate for 3min in incubator",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "dissolve cells in 10ml medium, pipett up and down to avoid clumps",
+        "parent_step": null
+      },
+      {
+        "step_number": "6",
+        "text": "centrifuge 5min 1000rpm",
+        "parent_step": null
+      },
+      {
+        "step_number": "7",
+        "text": "aspirate supernatant and resuspend the pellet in complete medium (e.g. 12ml)",
+        "parent_step": null
+      },
+      {
+        "step_number": "8",
+        "text": "divide cells in the desired dilution (e.g add 3ml out of 12ml cell suspension to 9ml complete medium to achieve a 1 to 4 dilution)",
+        "parent_step": null
+      }
+    ],
+    "comment": "all solutions have to be prewarmed at 37°C",
+    "filename": "Splitting Cells Protocol.docx"
+  },
+  {
+    "title": "Transfection with Lipofectamine 2000 Protocol",
+    "author": "Nosov G.",
+    "keywords": "Lipofectamine 2000, transfection, cells",
+    "materials": [
+      {
+        "step_number": "1",
+        "text": "DMEM serum free (no antibiotics)",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "Opti-MEM (Invitrogen)",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "Lipofectamine 2000 (Invitrogen)",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "DNA stock solution",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "Cells (50-70% confluent day before transfection)",
+        "parent_step": null
+      }
+    ],
+    "procedure": [
+      {
+        "step_number": "1",
+        "text": "For cells 1ml of medium dilute 1.6μg DNA ( for siRNA I would used 40 pmol) in 100μl Opti-MEM mix gently and 4μl lipofectamine 2000 in 100μl Opti-MEM incubate for 5min",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "Combine both solutions and incubate for 20min at RT",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "Prepare cells for transfection by changing the medium to Serum Free Medium (no  antibiotics)",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "Add transfection mix drop wise and rock the plate back and forth",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "Medium should be changed after 6h",
+        "parent_step": null
+      },
+      {
+        "step_number": "6",
+        "text": "Leave 24h for expression",
+        "parent_step": null
+      }
+    ],
+    "comment": "cells have to be 50-70% confluent the day before transfection",
+    "filename": "Transfection with Lipofectamine 2000 Protocol.docx"
+  },
+  {
+    "title": "Production of Lentiviral Vectors in 293T cells Protocol",
+    "author": "Nosov G.",
+    "keywords": "293T cells, Lentiviral Vectors, production,",
+    "materials": [
+      {
+        "step_number": "1",
+        "text": "10 cm plate",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "Transfer vector - 20μg",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "Packaging plasmid",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "Envelope plasmid",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "Water",
+        "parent_step": null
+      },
+      {
+        "step_number": "6",
+        "text": "2xHBS",
+        "parent_step": null
+      },
+      {
+        "step_number": "7",
+        "text": "2.5M CaCl2",
+        "parent_step": null
+      },
+      {
+        "step_number": "8",
+        "text": "Spinner",
+        "parent_step": null
+      },
+      {
+        "step_number": "9",
+        "text": "Filter (0.45 μm)",
+        "parent_step": null
+      },
+      {
+        "step_number": "10",
+        "text": "30 ml Beckman conical tube",
+        "parent_step": null
+      },
+      {
+        "step_number": "11",
+        "text": "serum-free medium (e.g. Cellgro or Episerf) or PBS / 1% BSA",
+        "parent_step": null
+      },
+      {
+        "step_number": "12",
+        "text": "sucrose (20 %)",
+        "parent_step": null
+      },
+      {
+        "step_number": "13",
+        "text": "2 x HBS (for 500ml)",
+        "parent_step": null
+      },
+      {
+        "step_number": "14",
+        "text": "NaCl - 8g",
+        "parent_step": null
+      },
+      {
+        "step_number": "15",
+        "text": "KCl - 0.38g",
+        "parent_step": null
+      },
+      {
+        "step_number": "16",
+        "text": "Na2HPO4 - 0.1g",
+        "parent_step": null
+      },
+      {
+        "step_number": "17",
+        "text": "Hepes - 5g",
+        "parent_step": null
+      },
+      {
+        "step_number": "18",
+        "text": "Glucose - 1g",
+        "parent_step": null
+      },
+      {
+        "step_number": "19",
+        "text": "2.5M CaCl2",
+        "parent_step": null
+      },
+      {
+        "step_number": "20",
+        "text": "bi-distilled water",
+        "parent_step": null
+      }
+    ],
+    "procedure": [
+      {
+        "step_number": "1",
+        "text": "Day 1 (Plating)",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "Plate 2-2.5x106 of 293T cells per 10cm plate",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "Day 2 (Transfection)",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "Prepare calcium-phosphate precipitate (1ml/10cm plate)",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "Add water to 0.5ml, add 0.5ml 2xHBS and mix well",
+        "parent_step": null
+      },
+      {
+        "step_number": "6",
+        "text": "Add 50μgl 2.5M CaCl2 and shake briefly",
+        "parent_step": null
+      },
+      {
+        "step_number": "7",
+        "text": "Keep in RT for 20-25min",
+        "parent_step": null
+      },
+      {
+        "step_number": "8",
+        "text": "Add dropwise on a plate and mix gently with a medium",
+        "parent_step": null
+      },
+      {
+        "step_number": "9",
+        "text": "Change medium (6-8hrs later)",
+        "parent_step": null
+      },
+      {
+        "step_number": "10",
+        "text": "Remove medium with precipitate and",
+        "parent_step": null
+      },
+      {
+        "step_number": "11",
+        "text": "Add 6ml/plate of fresh medium",
+        "parent_step": null
+      },
+      {
+        "step_number": "12",
+        "text": "Day 4 (Collection)",
+        "parent_step": null
+      },
+      {
+        "step_number": "13",
+        "text": "Collect medium",
+        "parent_step": null
+      },
+      {
+        "step_number": "14",
+        "text": "Spin 3000rpm/5min/RT",
+        "parent_step": null
+      },
+      {
+        "step_number": "15",
+        "text": "Filter through 0.45 μm (Comm: At this point virus can be used for transduction, frozen at -70°C for future use, or concentrated)",
+        "parent_step": null
+      },
+      {
+        "step_number": "16",
+        "text": "(Concentration)",
+        "parent_step": null
+      },
+      {
+        "step_number": "17",
+        "text": "Transfer 30ml of virus to 33ml Beckman conical tubes spin at 26.000rpm/2hrs/4°C in Beckman SW28 swingle bucket rotor",
+        "parent_step": null
+      },
+      {
+        "step_number": "18",
+        "text": "After spin discard supernatant and resuspend the virus in a desired volume of serum-free medium (e.g. Cellgro or Episerf) or PBS/ 1% BSA",
+        "parent_step": null
+      },
+      {
+        "step_number": "19",
+        "text": "aliquot and store at -70°C",
+        "parent_step": null
+      },
+      {
+        "step_number": "20",
+        "text": "For transduction of very delicate cells the virus can be concentrated on sucrose cushion, just put 4ml of 20% sucrose on the bottom of the tube and overlay with 26ml of viral supernatant.",
+        "parent_step": null
+      }
+    ],
+    "comment": null,
+    "filename": "Production of Lentiviral Vectors in 293T cells Protocol.docx"
+  },
+  {
+    "title": "Isolation and Culture of Hippocampal Neurons",
+    "author": "Nosov G.",
+    "keywords": "hippocampal neurons, cells, isolation, cellculture",
+    "materials": [
+      {
+        "step_number": "1",
+        "text": "Basic medium",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "MEM – 500 mL",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "Glucose – 2.5 g",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "NaHCO3 – 100 mg",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "Transferrin – 50 mg",
+        "parent_step": null
+      },
+      {
+        "step_number": "6",
+        "text": "Filtrate and store at 4°C",
+        "parent_step": null
+      },
+      {
+        "step_number": "7",
+        "text": "Plating medium",
+        "parent_step": null
+      },
+      {
+        "step_number": "8",
+        "text": "Basic media – 100 mL",
+        "parent_step": null
+      },
+      {
+        "step_number": "9",
+        "text": "FCS – 10 mL",
+        "parent_step": null
+      },
+      {
+        "step_number": "10",
+        "text": "L-Glutamin Lsg 0.2 M – 1 mL",
+        "parent_step": null
+      },
+      {
+        "step_number": "11",
+        "text": "Insulin-Lsg – 200 µL",
+        "parent_step": null
+      },
+      {
+        "step_number": "12",
+        "text": "Filtrate and store at 4°C",
+        "parent_step": null
+      },
+      {
+        "step_number": "13",
+        "text": "Growth media",
+        "parent_step": null
+      },
+      {
+        "step_number": "14",
+        "text": "Basic media – 100 mL",
+        "parent_step": null
+      },
+      {
+        "step_number": "15",
+        "text": "FCS – 5 mL",
+        "parent_step": null
+      },
+      {
+        "step_number": "16",
+        "text": "L-Glutamin Lsg 0.2 M – 0.25 mL",
+        "parent_step": null
+      },
+      {
+        "step_number": "17",
+        "text": "B27-Supp – 2 mL",
+        "parent_step": null
+      },
+      {
+        "step_number": "18",
+        "text": "Ara-C Endkonz. 2uM – 50 uL",
+        "parent_step": null
+      },
+      {
+        "step_number": "19",
+        "text": "AraC 4uM – 100 uL (when necessary)",
+        "parent_step": null
+      },
+      {
+        "step_number": "20",
+        "text": "Pen/Strep 100x – 1:1000",
+        "parent_step": null
+      },
+      {
+        "step_number": "21",
+        "text": "Filtrate and store at 4°C",
+        "parent_step": null
+      },
+      {
+        "step_number": "22",
+        "text": "Growth media alternative",
+        "parent_step": null
+      },
+      {
+        "step_number": "23",
+        "text": "Neurobasal - A Medium – 100 mL",
+        "parent_step": null
+      },
+      {
+        "step_number": "24",
+        "text": "B27-Supp – 2 mL",
+        "parent_step": null
+      },
+      {
+        "step_number": "25",
+        "text": "Glutamin– 1 mL",
+        "parent_step": null
+      },
+      {
+        "step_number": "26",
+        "text": "Hank‘s Salt solution",
+        "parent_step": null
+      },
+      {
+        "step_number": "27",
+        "text": "Hank‘s without Ca++ and Mg++",
+        "parent_step": null
+      },
+      {
+        "step_number": "28",
+        "text": "NaHCO3 – 350 mg/Liter",
+        "parent_step": null
+      },
+      {
+        "step_number": "29",
+        "text": "HEPES, for stabilisation the pH at 7.35 – 238 mg/Liter",
+        "parent_step": null
+      },
+      {
+        "step_number": "30",
+        "text": "Hank´s without Ca++ and Mg++",
+        "parent_step": null
+      },
+      {
+        "step_number": "31",
+        "text": "Hank´s + 20%FCS",
+        "parent_step": null
+      },
+      {
+        "step_number": "32",
+        "text": "Dissociation solution",
+        "parent_step": null
+      },
+      {
+        "step_number": "33",
+        "text": "Hank‘s – 100 ml",
+        "parent_step": null
+      },
+      {
+        "step_number": "34",
+        "text": "12 mM MgSO4*6H20 = 166 mg/l00ml [oder: 236mg/100ml MGSO4*7H20]",
+        "parent_step": null
+      },
+      {
+        "step_number": "35",
+        "text": "Digestion solution",
+        "parent_step": null
+      },
+      {
+        "step_number": "36",
+        "text": "137 mM NaCl – 0.8 g / 100 ml",
+        "parent_step": null
+      },
+      {
+        "step_number": "37",
+        "text": "5 mM KCl – 0.0037 g / 100 ml",
+        "parent_step": null
+      },
+      {
+        "step_number": "38",
+        "text": "7 mM Na2HPO4 – 0.099 g / 100 ml",
+        "parent_step": null
+      },
+      {
+        "step_number": "39",
+        "text": "25 mM Hepes – 0.6 g / 100 ml",
+        "parent_step": null
+      },
+      {
+        "step_number": "40",
+        "text": "Calibrate the pH 7.2 with NaOH",
+        "parent_step": null
+      }
+    ],
+    "procedure": [
+      {
+        "step_number": "1",
+        "text": "First Day:",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "The cells will seed on round coverslips in a 12 well plate (one plate per mouse).",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "The coverslips (CS) will cleaned in HCl, Aceton, 100% Ethanol and stored in 70% Ethanol under the bench. The cleaning protocol is in lab 01.20.",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "Put the coverslip with a tweezer; one coverslip per well (standing not lying). Let the Ethanol dry for at least 10min with open lid.",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "Add 50µl of diluted Matrigel (1:50 in DMEM, store at 4°C) in the middle of the coverslip",
+        "parent_step": null
+      },
+      {
+        "step_number": "6",
+        "text": "Fill 5 petri dish (one per mouse + one for collecting) with Hank´s+20%FCS and put them on ice",
+        "parent_step": null
+      },
+      {
+        "step_number": "7",
+        "text": "Isolate Hippocampi (HC) as customary",
+        "parent_step": null
+      },
+      {
+        "step_number": "8",
+        "text": "Divide the HCs into 4-6pieces/HC with the sharp side of the spoon or the forcep",
+        "parent_step": null
+      },
+      {
+        "step_number": "9",
+        "text": "aspirate 5ml Hank´s+20%FCS with 5ml-pipette and collect the HCs from the dish and fill them into a 15ml tube and let them settle down",
+        "parent_step": null
+      },
+      {
+        "step_number": "10",
+        "text": "aspirate the supernatant and wash them again with 5ml Hank´s+20%FCS",
+        "parent_step": null
+      },
+      {
+        "step_number": "11",
+        "text": "wash 2x with 5ml Hank´s (wo Serum) and aspirate the supernatant",
+        "parent_step": null
+      },
+      {
+        "step_number": "12",
+        "text": "add a small filter unit (red 0,2 µm Filter+5ml syringe, remove the forcer) on the top of the 15ml-tube",
+        "parent_step": null
+      },
+      {
+        "step_number": "13",
+        "text": "add 1ml Digestion solution + 10µl DNase and add to the 10mg Trypsin-Eppi 1ml Digestion Solution, when it is solved add it into the syringe. Put the forcer to the syringe and steril filtrate it directly to the HCs",
+        "parent_step": null
+      },
+      {
+        "step_number": "14",
+        "text": "Put the HCs with the Digestion solution into an Petri dish an incubate it for 15min at 37°C",
+        "parent_step": null
+      },
+      {
+        "step_number": "15",
+        "text": "fill the HCs back to a 15ml-tube with 5ml Hank´s+20%FCS",
+        "parent_step": null
+      },
+      {
+        "step_number": "16",
+        "text": "wash it 2x with Hank´s (wo serum) like describe above and aspirate the supernatant",
+        "parent_step": null
+      },
+      {
+        "step_number": "17",
+        "text": "add small filter unit to the tube and add 20µl DNase + 2ml Plating medium in the syringe – filtrate it to the HCs, adjust the amount of platingmedium to the number of wells",
+        "parent_step": null
+      },
+      {
+        "step_number": "18",
+        "text": "triturate first with Pasteur pipette with a big hole (7-10x) following with a smaller hole (3x) until there are no/less aggregates",
+        "parent_step": null
+      },
+      {
+        "step_number": "19",
+        "text": "aspirate surplus Matrigel (not too much, only 1x)",
+        "parent_step": null
+      },
+      {
+        "step_number": "20",
+        "text": "fill 50µl cell suspension in the middle of each well (and spread it with the pipette over the half of the coverslip)",
+        "parent_step": null
+      },
+      {
+        "step_number": "21",
+        "text": "Incubate it for 1h (or 2h) at 37°C and 5%CO2",
+        "parent_step": null
+      },
+      {
+        "step_number": "22",
+        "text": "add 1ml plating medium per well – back into the incubator",
+        "parent_step": null
+      },
+      {
+        "step_number": "23",
+        "text": "Next day:",
+        "parent_step": null
+      },
+      {
+        "step_number": "24",
+        "text": "Add 0,5ml growth-medium to each well",
+        "parent_step": null
+      },
+      {
+        "step_number": "25",
+        "text": "Second day:",
+        "parent_step": null
+      },
+      {
+        "step_number": "26",
+        "text": "Remove 0,5ml medium from each well and add 0,5ml growth-medium with 6µM Arac",
+        "parent_step": null
+      }
+    ],
+    "comment": null,
+    "filename": "Isolation and Culture of Hippocampal Neurons Protocol.docx"
+  },
+  {
+    "title": "Transfection with GenJect Protocol",
+    "author": "Molodtsova A.",
+    "keywords": "transfection, GenJect, cells,",
+    "materials": [
+      {
+        "step_number": "1",
+        "text": "medium: COS/ HEK: DMEM + 10%FCS + 1% of Pyr, Gln, P/S",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "PC12: DMEM + 5%FCS + 10%HoS and + 1% of Pyr, Gln, P/S",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "DMEM serumfree",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "GenJect",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "DNA stock solution",
+        "parent_step": null
+      },
+      {
+        "step_number": "6",
+        "text": "Cells (50% subconfluent) in 2ml medium",
+        "parent_step": null
+      },
+      {
+        "step_number": "7",
+        "text": "Comm: Sterile solutions",
+        "parent_step": null
+      }
+    ],
+    "procedure": [
+      {
+        "step_number": "1",
+        "text": "for 6-well plate or 35mm Petri dish (Comment Cells have to be 50% confluent)",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "aspirate medium and add 2 ml of fresh medium without antibiotics",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "dilute 1-3 μl GenJect in 50 μl of serum free medium (do not allow GenJect to come in contact with the tube)",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "incubate for 10-15 min at RT",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "add 1 μg of DNA in 50 μl of serum free medium, mix by pipette",
+        "parent_step": null
+      },
+      {
+        "step_number": "6",
+        "text": "drop wise add diluted GenJect to the tube containing the concentrated DNA",
+        "parent_step": null
+      },
+      {
+        "step_number": "7",
+        "text": "gently tap the tube to mix the contents",
+        "parent_step": null
+      },
+      {
+        "step_number": "8",
+        "text": "incubate for 20 min at RT",
+        "parent_step": null
+      },
+      {
+        "step_number": "9",
+        "text": "add transfection-mixture drop wise in the well (for 1 ml of growth medium is added to 100 µl of suspension)",
+        "parent_step": null
+      },
+      {
+        "step_number": "10",
+        "text": "incubate for 12-24h",
+        "parent_step": null
+      }
+    ],
+    "comment": null,
+    "filename": "Transfection with GenJect Protocol.docx"
+  },
+  {
+    "title": "4% Paraformaldehyde-fix (PFA) Preparation Protocol",
+    "author": "Nosov G.",
+    "keywords": "pfa, neurons, fixation",
+    "materials": [
+      {
+        "step_number": "1",
+        "text": "with Sodium-Phosphate",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "ddH2O",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "PFA",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "1x PBS",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "1M NaOH",
+        "parent_step": null
+      },
+      {
+        "step_number": "6",
+        "text": "Whatman filter",
+        "parent_step": null
+      },
+      {
+        "step_number": "7",
+        "text": "pH paper",
+        "parent_step": null
+      },
+      {
+        "step_number": "8",
+        "text": "with Potassium-Phosphate (for neurons)",
+        "parent_step": null
+      },
+      {
+        "step_number": "9",
+        "text": "PFA",
+        "parent_step": null
+      },
+      {
+        "step_number": "10",
+        "text": "0.1M K-phosphate buffer (pH 7.2)",
+        "parent_step": null
+      },
+      {
+        "step_number": "11",
+        "text": "sucrose",
+        "parent_step": null
+      },
+      {
+        "step_number": "12",
+        "text": "Whatman filter",
+        "parent_step": null
+      },
+      {
+        "step_number": "13",
+        "text": "pH paper",
+        "parent_step": null
+      }
+    ],
+    "procedure": [
+      {
+        "step_number": "1",
+        "text": "with Sodium-Phosphate",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "heat 250ml ddH2Oto 60°C add 48ml",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "add 20g PFA while stirring (UNDER THE HOOD!)",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "let solution cool down to RT while stirring",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "add 250ml 1XPBS",
+        "parent_step": null
+      },
+      {
+        "step_number": "6",
+        "text": "add 1-2 drops 1M NaOH",
+        "parent_step": null
+      },
+      {
+        "step_number": "7",
+        "text": "filtrate solution through a regular Whatman filter",
+        "parent_step": null
+      },
+      {
+        "step_number": "8",
+        "text": "check pH (pH=7.4-7.5)",
+        "parent_step": null
+      },
+      {
+        "step_number": "9",
+        "text": "store aliquots at –20°C",
+        "parent_step": null
+      },
+      {
+        "step_number": "10",
+        "text": "with Potassium-Phosphate (for neurons)",
+        "parent_step": null
+      },
+      {
+        "step_number": "11",
+        "text": "add PFA to 0.1M K-phosphate buffer (pH 7.2) to give a final concentration of 4% (w/v)",
+        "parent_step": null
+      },
+      {
+        "step_number": "12",
+        "text": "let solution cool down to RT while stirring",
+        "parent_step": null
+      },
+      {
+        "step_number": "13",
+        "text": "add sucrose to a final concentration of 11% (w/v)",
+        "parent_step": null
+      },
+      {
+        "step_number": "14",
+        "text": "filtrate solution through a regular Whatman filter",
+        "parent_step": null
+      },
+      {
+        "step_number": "15",
+        "text": "make aliquots and store them at –20°C",
+        "parent_step": null
+      }
+    ],
+    "comment": "pH check with paper; adjust with hydrogenchloride",
+    "filename": "4_ Paraformaldehyde-fix (PFA) preparation Protocol.docx"
+  },
+  {
+    "title": "Splitting and Differentiation of PC12",
+    "author": "Nosov G.",
+    "keywords": "PC12, cells, splitting, cellculture",
+    "materials": [
+      {
+        "step_number": "1",
+        "text": "Comm: all solutions have to be prewarmed at 37°C",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "medium: PC12: DMEM + 5%FCS + 10%HoS and + 1% of Pyr, Gln, P/S",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "Trypsin/ EDTA in PBS",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "10 cm cellculture plates",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "35 mm cellculture plates",
+        "parent_step": null
+      },
+      {
+        "step_number": "6",
+        "text": "12 ml Falcon tubes",
+        "parent_step": null
+      },
+      {
+        "step_number": "7",
+        "text": "DMEM serumfree",
+        "parent_step": null
+      },
+      {
+        "step_number": "8",
+        "text": "NGF",
+        "parent_step": null
+      }
+    ],
+    "procedure": [
+      {
+        "step_number": "1",
+        "text": "Comm: cells have to be 80% - 100% confluent",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "aspirate medium",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "wash cells 2x with PBS",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "pipette 2ml Trypsin/ EDTA in PBS (10cm plates)",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "incubate for 3min in incubator",
+        "parent_step": null
+      },
+      {
+        "step_number": "6",
+        "text": "dissolve cells in 10ml medium, pipet up and down to avoid clumps",
+        "parent_step": null
+      },
+      {
+        "step_number": "7",
+        "text": "centrifuge",
+        "parent_step": null
+      },
+      {
+        "step_number": "8",
+        "text": "aspirate supernatant and resuspend the pellet in 12ml medium",
+        "parent_step": null
+      },
+      {
+        "step_number": "9",
+        "text": "fill 9ml medium in a new 12ml Falcon tube and add 3ml of cell suspension (1:4 dilution)",
+        "parent_step": null
+      },
+      {
+        "step_number": "10",
+        "text": "fill 2ml of diluted cell suspension in a 35mm plate",
+        "parent_step": null
+      },
+      {
+        "step_number": "11",
+        "text": "incubate for 1 day (24hs)",
+        "parent_step": null
+      },
+      {
+        "step_number": "12",
+        "text": "prepare 1ml serum free medium containing 1μl NGF (100μg/ml NGF)",
+        "parent_step": null
+      },
+      {
+        "step_number": "13",
+        "text": "aspirate cell medium",
+        "parent_step": null
+      },
+      {
+        "step_number": "14",
+        "text": "wash cells 2x with serumfree medium",
+        "parent_step": null
+      },
+      {
+        "step_number": "15",
+        "text": "add 1ml serumfree medium containing 1μl NGF",
+        "parent_step": null
+      },
+      {
+        "step_number": "16",
+        "text": "observe neurite outgrowth after 1, 2, 3 days",
+        "parent_step": null
+      }
+    ],
+    "comment": null,
+    "filename": "Splitting and Differenciation of PC12 Protocol.docx"
+  },
+  {
+    "title": "Astrocytes Preparation",
+    "author": "Nosov G.",
+    "keywords": "astrocytes, cells, cellculture",
+    "materials": [
+      {
+        "step_number": "1",
+        "text": "Matrigel",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "HBSS",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "FCS 20%",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "Trypsin 10 mg/ml",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "Dnase 1 mg/ml",
+        "parent_step": null
+      }
+    ],
+    "procedure": [
+      {
+        "step_number": "1",
+        "text": "Cover T75 cell culture flask with matrigel (2ml) and incubate at 37°C for minimum  30 min",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "Decapitate mouse, take out the brain and put into HBSS+20% FCS",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "Preparate the cortex",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "Cut the cortex in pieces",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "Transfer the pieces in a 15ml tube",
+        "parent_step": null
+      },
+      {
+        "step_number": "6",
+        "text": "Wash twice with 5ml HBSS+20%FCS (let them settle down and remove the supernatant)",
+        "parent_step": null
+      },
+      {
+        "step_number": "7",
+        "text": "Wash twice with 5ml HBSS (let them settle down and aspirate the supernatant)",
+        "parent_step": null
+      },
+      {
+        "step_number": "8",
+        "text": "Remove the buffer and incubate the pellet with 1ml trypsin/Dnase solution (10mg/ml Trypsin, 1mg/ml Dnase) in a petri-dish for 15min and 37°C",
+        "parent_step": null
+      },
+      {
+        "step_number": "9",
+        "text": "Transfer the cortex back to the 15ml and stop the digestion with HBSS/20% FCS",
+        "parent_step": null
+      },
+      {
+        "step_number": "10",
+        "text": "Cover over matrigel",
+        "parent_step": null
+      }
+    ],
+    "comment": null,
+    "filename": "Astrocytes Preparation Protocol.docx"
+  },
+  {
+    "title": "Thawing Cells",
+    "author": "Nosov G.",
+    "keywords": "thawing, cells, cellculture",
+    "materials": [
+      {
+        "step_number": "1",
+        "text": "complete medium:",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "COS/ HEK: DMEM + 10%FCS + 1% of Pyr, Gln, P/S",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "PC12: DMEM + 5%FCS + 10%HoS and + 1% of Pyr, Gln, P/S",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "15ml Falcon tubes",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "35mm dishes",
+        "parent_step": null
+      }
+    ],
+    "procedure": [
+      {
+        "step_number": "1",
+        "text": "prepare a 15ml Falcon tube containing 10 ml complete medium",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "remove the cells from liquid nitrogen and put them into dry ice",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "thaw them quickly in a 37°C water bath",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "put cells in the 15ml Falcon containing the complete medium",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "centrifuge for 5min at 1000rpm",
+        "parent_step": null
+      },
+      {
+        "step_number": "6",
+        "text": "suck off the medium and resuspend the cells in 4ml fresh medium",
+        "parent_step": null
+      },
+      {
+        "step_number": "7",
+        "text": "plate the cells on two 35mm dishes",
+        "parent_step": null
+      }
+    ],
+    "comment": null,
+    "filename": "Thawing Cells Protocol for 35mm dishes.docx"
+  },
+  {
+    "title": "Transfection by Electroporation Protocol",
+    "author": "Nosov G.",
+    "keywords": "transfection, electroporation, cells, cellculture",
+    "materials": [
+      {
+        "step_number": "1",
+        "text": "BioRad pulse chaser",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "medium: COS/ HEK: DMEM + 10%FCS + 1% of Pyr, Gln, P/S",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "PC12: DMEM + 5%FCS + 10%HoS and + 1% of Pyr, Gln, P/S",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "OPTIMEM (serum free)",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "DMEM serumfree",
+        "parent_step": null
+      },
+      {
+        "step_number": "6",
+        "text": "DNA stock solution (10-30μg DNA)",
+        "parent_step": null
+      },
+      {
+        "step_number": "7",
+        "text": "Cells (1-5 106 cells)",
+        "parent_step": null
+      },
+      {
+        "step_number": "8",
+        "text": "NGF",
+        "parent_step": null
+      },
+      {
+        "step_number": "9",
+        "text": "35mm cellculture plates",
+        "parent_step": null
+      }
+    ],
+    "procedure": [
+      {
+        "step_number": "1",
+        "text": "number of cells has to be 1-5 106",
+        "parent_step": null
+      },
+      {
+        "step_number": "2",
+        "text": "centrifuge 1.5ml of resuspended cells",
+        "parent_step": null
+      },
+      {
+        "step_number": "3",
+        "text": "resupend cells in 300μl serum free medium OPTIMEM",
+        "parent_step": null
+      },
+      {
+        "step_number": "4",
+        "text": "add 10-30μg DNA",
+        "parent_step": null
+      },
+      {
+        "step_number": "5",
+        "text": "incubate for 5min at RT",
+        "parent_step": null
+      },
+      {
+        "step_number": "6",
+        "text": "push in the BioRad pulser (960μF, 200Ώ, 350V, τ = 35-45)",
+        "parent_step": null
+      },
+      {
+        "step_number": "7",
+        "text": "incubate for 5min at RT",
+        "parent_step": null
+      },
+      {
+        "step_number": "8",
+        "text": "spread the solution in 4 35mm plates containing 1.5ml fresh medium",
+        "parent_step": null
+      },
+      {
+        "step_number": "9",
+        "text": "let cells recover for a few days (sometimes changing medium)",
+        "parent_step": null
+      },
+      {
+        "step_number": "10",
+        "text": "aspirate medium",
+        "parent_step": null
+      },
+      {
+        "step_number": "11",
+        "text": "add 1ml serumfree medium containing 100μg/ml NGF (1μl of stock)",
+        "parent_step": null
+      },
+      {
+        "step_number": "12",
+        "text": "wait and observe 2-4 days",
+        "parent_step": null
+      }
+    ],
+    "comment": null,
+    "filename": "Transfection by Electroporation Protocol.docx"
+  }
+]
