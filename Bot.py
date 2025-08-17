@@ -96,7 +96,7 @@ async def protocol_detail(update: Update, context: ContextTypes.DEFAULT_TYPE):
 if __name__ == "__main__":
     TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
     PORT = int(os.environ.get("PORT", 8443))
-    APP_URL = os.getenv("https://protocolbot-08w8.onrender.com")
+    APP_URL = os.getenv("APP_URL")
     app = ApplicationBuilder().token(TELEGRAM_TOKEN).build()
 
     app.add_handler(CommandHandler("start", start))
