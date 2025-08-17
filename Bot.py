@@ -94,6 +94,8 @@ async def protocol_detail(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # ----------------- Запуск бота -----------------
 if __name__ == "__main__":
     TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+    PORT = int(os.environ.get("PORT", 8443))
+    APP_URL = os.getenv("https://protocolbot-08w8.onrender.com")
     app = ApplicationBuilder().token(TELEGRAM_TOKEN).build()
 
     app.add_handler(CommandHandler("start", start))
@@ -101,5 +103,10 @@ if __name__ == "__main__":
     app.add_handler(CommandHandler("search", search))
     app.add_handler(CallbackQueryHandler(protocol_detail))
 
-    print("Бот запущен...")
-    app.run_polling()
+    if APP_URL:  # Если деплой на Render
+        webhook_url = f"{APP_URL}/{TELEGRAM_TOKEN}"
+        print(f"Запуск webhook на {webhook_url}...")
+        app.run_webhook(listen="0.0.0.0", port=PORT, webhook_url_path=TELEGRAM_TOKEN, url_path=TELEGRAM_TOKEN)
+    else:  # Локальный запуск для разработки
+        print("Локальный запуск polling...")
+        app.run_polling()
