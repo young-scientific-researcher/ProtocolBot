@@ -2,36 +2,15 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 15,
+   "execution_count": 1,
    "id": "153ea94e-9595-4b89-996e-85929bfa7e9d",
    "metadata": {},
    "outputs": [],
    "source": [
     "import os\n",
-    "import supabase\n",
-    "import telegram\n",
-    "import pandas\n",
     "from supabase import create_client\n",
     "from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup\n",
     "from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 17,
-   "id": "b6e9d513-71d6-46d0-a343-d1369373c709",
-   "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "2.2.2\n"
-     ]
-    }
-   ],
-   "source": [
-    "print(pandas.__version__)\n"
    ]
   },
   {
@@ -139,7 +118,7 @@
     "\n",
     "# ----------------- Запуск бота -----------------\n",
     "if __name__ == \"__main__\":\n",
-    "    TELEGRAM_TOKEN = os.getenv(\"TELEGRAM_TOKEN\")\n",
+    "    TELEGRAM_TOKEN = os.getenv(\"8217325864:AAE7Jpx06kA5TL7rPwYNAj_Mz54iUhKwLXg\")\n",
     "    app = ApplicationBuilder().token(TELEGRAM_TOKEN).build()\n",
     "\n",
     "    app.add_handler(CommandHandler(\"start\", start))\n",
