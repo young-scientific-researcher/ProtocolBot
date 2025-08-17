@@ -107,7 +107,7 @@ if __name__ == "__main__":
     if APP_URL:  # Если деплой на Render
         webhook_url = f"{APP_URL}/{TELEGRAM_TOKEN}"
         print(f"Запуск webhook на {webhook_url}...")
-        app.run_webhook(listen="0.0.0.0", port=PORT, webhook_url_path=TELEGRAM_TOKEN, url_path=TELEGRAM_TOKEN)
+        app.run_webhook(listen="0.0.0.0", port=PORT, webhook_url=webhook_url, url_path=TELEGRAM_TOKEN)
     if not APP_URL:  # локальный запуск
         requests.post(f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/deleteWebhook")
         print("Старый webhook удалён, запускаем polling...")
