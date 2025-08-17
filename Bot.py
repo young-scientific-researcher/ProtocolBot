@@ -1,0 +1,176 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "153ea94e-9595-4b89-996e-85929bfa7e9d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import os\n",
+    "import supabase\n",
+    "import telegram\n",
+    "import pandas\n",
+    "from supabase import create_client\n",
+    "from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup\n",
+    "from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "b6e9d513-71d6-46d0-a343-d1369373c709",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2.2.2\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(pandas.__version__)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "eceaaca2-39d3-4fdc-8927-1aff8443937c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "SUPABASE_URL = \"https://kplgemcfwgjszrwepitq.supabase.co\" \n",
+    "SUPABASE_KEY = \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtwbGdlbWNmd2dqc3pyd2VwaXRxIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1NTM0Nzg3OCwiZXhwIjoyMDcwOTIzODc4fQ.7QJ99pPkPDIYBEeOLGt0VuOZIU1vHwOjWZ7qOwybmxQ\"\n",
+    "\n",
+    "supabase = create_client(SUPABASE_URL, SUPABASE_KEY)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "862bb764-1b7b-49e1-9dd6-187666162490",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# ----------------- Команды бота -----------------\n",
+    "\n",
+    "async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):\n",
+    "    await update.message.reply_text(\n",
+    "        \"Привет! Я бот для поиска протоколов от разных научных групп LIFT.\\n\"\n",
+    "        \"Используйте /search <ключевые слова> для поиска протоколов.\\n\"\n",
+    "        \"Например: /search astrocytes\"\n",
+    "    )\n",
+    "\n",
+    "async def list_tags(update: Update, context: ContextTypes.DEFAULT_TYPE):\n",
+    "    # Получаем все доступные ключевые слова\n",
+    "    tags_resp = supabase.table(\"tags\").select(\"name\").execute()\n",
+    "    tags = [t['name'] for t in tags_resp.data]\n",
+    "    await update.message.reply_text(\"Доступные ключевые слова:\\n\" + \", \".join(tags))\n",
+    "\n",
+    "async def search(update: Update, context: ContextTypes.DEFAULT_TYPE):\n",
+    "    if not context.args:\n",
+    "        await update.message.reply_text(\"Укажите хотя бы одно ключевое слово.\")\n",
+    "        return\n",
+    "\n",
+    "    keywords_list = [k.lower() for k in context.args]\n",
+    "\n",
+    "    # Находим id тегов по ключевым словам\n",
+    "    tags_resp = supabase.table(\"tags\").select(\"id, name\").execute()\n",
+    "    tag_ids = [t['id'] for t in tags_resp.data if t['name'].lower() in keywords_list]\n",
+    "\n",
+    "    if not tag_ids:\n",
+    "        await update.message.reply_text(\"Теги не найдены.\")\n",
+    "        return\n",
+    "\n",
+    "    # Находим id протоколов с этими тегами\n",
+    "    protocols_tags_resp = supabase.table(\"protocols_tags\").select(\"protocol_id\").in_(\"tag_id\", tag_ids).execute()\n",
+    "    protocol_ids = list(set([pt['protocol_id'] for pt in protocols_tags_resp.data]))\n",
+    "\n",
+    "    if not protocol_ids:\n",
+    "        await update.message.reply_text(\"Протоколы по этим ключевым словам не найдены.\")\n",
+    "        return\n",
+    "\n",
+    "    # Получаем сами протоколы\n",
+    "    protocols_resp = supabase.table(\"protocols\").select(\"id, title\").in_(\"id\", protocol_ids).execute()\n",
+    "    found = protocols_resp.data\n",
+    "\n",
+    "    if not found:\n",
+    "        await update.message.reply_text(\"Протоколы по этим ключевым словам не найдены.\")\n",
+    "        return\n",
+    "\n",
+    "    # Создаем кнопки для выбора протокола\n",
+    "    keyboard = [[InlineKeyboardButton(p['title'], callback_data=str(p['id']))] for p in found]\n",
+    "    reply_markup = InlineKeyboardMarkup(keyboard)\n",
+    "    await update.message.reply_text(\"Найдены протоколы. Выберите нужный:\", reply_markup=reply_markup)\n",
+    "\n",
+    "async def protocol_detail(update: Update, context: ContextTypes.DEFAULT_TYPE):\n",
+    "    query = update.callback_query\n",
+    "    await query.answer()\n",
+    "\n",
+    "    protocol_id = int(query.data)\n",
+    "    resp = supabase.table(\"protocols\").select(\"*\").eq(\"id\", protocol_id).execute()\n",
+    "    if not resp.data:\n",
+    "        await query.edit_message_text(\"Протокол не найден.\")\n",
+    "        return\n",
+    "\n",
+    "    protocol = resp.data[0]\n",
+    "\n",
+    "    text = f\"**{protocol['title']}**\\n\\n\"\n",
+    "    if protocol.get(\"author\"):\n",
+    "        text += f\"Автор: {protocol['author']}\\n\"\n",
+    "    if protocol.get(\"keywords\"):\n",
+    "        text += f\"Ключевые слова: {protocol['keywords']}\\n\"\n",
+    "    if protocol.get(\"comment\"):\n",
+    "        text += f\"Комментарий: {protocol['comment']}\\n\"\n",
+    "\n",
+    "    if protocol.get(\"materials\"):\n",
+    "        text += \"\\n**Материалы:**\\n\"\n",
+    "        for m in protocol['materials']:\n",
+    "            text += f\"- {m}\\n\"\n",
+    "\n",
+    "    if protocol.get(\"procedure\"):\n",
+    "        text += \"\\n**Процедура:**\\n\"\n",
+    "        for step in protocol['procedure']:\n",
+    "            text += f\"{step['step_number']}. {step['text']}\\n\"\n",
+    "\n",
+    "    await query.edit_message_text(text, parse_mode=\"Markdown\")\n",
+    "\n",
+    "# ----------------- Запуск бота -----------------\n",
+    "if __name__ == \"__main__\":\n",
+    "    TELEGRAM_TOKEN = os.getenv(\"TELEGRAM_TOKEN\")\n",
+    "    app = ApplicationBuilder().token(TELEGRAM_TOKEN).build()\n",
+    "\n",
+    "    app.add_handler(CommandHandler(\"start\", start))\n",
+    "    app.add_handler(CommandHandler(\"tags\", list_tags))\n",
+    "    app.add_handler(CommandHandler(\"search\", search))\n",
+    "    app.add_handler(CallbackQueryHandler(protocol_detail))\n",
+    "\n",
+    "    print(\"Бот запущен...\")\n",
+    "    app.run_polling()"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
