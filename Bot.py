@@ -1,4 +1,5 @@
 import os
+import requests
 from supabase import create_client
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
@@ -107,6 +108,7 @@ if __name__ == "__main__":
         webhook_url = f"{APP_URL}/{TELEGRAM_TOKEN}"
         print(f"Запуск webhook на {webhook_url}...")
         app.run_webhook(listen="0.0.0.0", port=PORT, webhook_url_path=TELEGRAM_TOKEN, url_path=TELEGRAM_TOKEN)
-    else:  # Локальный запуск для разработки
-        print("Локальный запуск polling...")
+    if not APP_URL:  # локальный запуск
+        requests.post(f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/deleteWebhook")
+        print("Старый webhook удалён, запускаем polling...")
         app.run_polling()
