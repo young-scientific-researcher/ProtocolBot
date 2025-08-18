@@ -1,4 +1,4 @@
 supabase==2.3.5
 python-telegram-bot==20.3
-httpx==0.25.2   # последняя версия <0.26
+httpx==0.24.1
 requests==2.31.0
