@@ -3,4 +3,3 @@ python-telegram-bot==20.3
 httpx==0.24.1
 requests==2.31.0
 nest_asyncio==1.6.0
-logging==0.5.1.2
