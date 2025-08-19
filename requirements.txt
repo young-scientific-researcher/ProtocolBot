@@ -1,4 +1,4 @@
-python-telegram-bot==21.1  # Самая новая стабильная версия
+python-telegram-bot==20.7
 supabase==2.3.5
 requests==2.31.0
 nest_asyncio==1.6.0
